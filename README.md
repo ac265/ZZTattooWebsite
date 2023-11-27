@@ -1,2 +1,2 @@
 # ZZTattooWebsite
-website
+ZZ Tattoo Studio website using HTML and CSS.
