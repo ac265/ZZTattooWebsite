@@ -1,0 +1,588 @@
+/* GENERAL SETTINGS */ 
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular');
+}
+
+body {
+/*    ARKA PLAN */
+    background: #000;
+
+/*
+    height: 900px;
+    background: url('../img/plan.png') center center;
+    background-size: cover;
+*/
+    /*    YAZI RENGİ */
+    color: #fff;
+    font: 14px / 28px arial;
+/*     YAZI TİPİ */
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.sectionHeader {
+    background: #500d16;
+    border-bottom: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.slider1 {
+    padding: 20px 0px;
+    
+}
+
+.aboutHeader {
+    background: #500d16;
+    border-bottom: 30px solid #000;
+    height: 60px;
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sectionArea {
+    padding: 20px 0px;
+    
+}
+
+h3 {
+    color: #1c1c1c;
+    padding: 10px 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    }
+
+h33 {
+    color: #1c1c1c;
+    padding: 10px 0px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+    }
+
+h4 {
+    padding: 0px 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+
+    }
+
+
+h5 {
+    color: #333;
+    padding: 0px 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+
+    }
+
+h6 {
+    color: #000;
+    padding: 60px 40px;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+
+    }
+
+h7 {
+    color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex; 
+    letter-spacing: 1px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    transition: all .5s ease;
+
+    }
+
+h8 {
+    float: right;
+    color: #333;
+    padding: 10px 200px;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    margin-right: auto;
+    display: flex; 
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all .5s ease;
+
+    }
+
+h9 {
+    color: #333;
+    padding: 10px 100px;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    margin-right: auto;
+    display: flex; 
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all .5s ease;
+
+    }
+
+h10 {
+    background: #fff;
+    color: #333;
+    padding: 10px 100px;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    margin-right: auto;
+    display: flex; 
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all .5s ease;
+
+    }
+
+/* GRID SETTINGS */
+
+.popover
+{
+   width: 100%;
+      max-width: 800px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;   
+}
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.container3 {
+    background: #000;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+
+.socialBody .container {
+    justify-content: space-between;
+}
+
+.col1 {
+    background: #000;
+    float: right;
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 0px;
+    text-decoration: none;    
+
+}
+
+.col2 {
+    width: 33%;
+    background: #000;
+    padding: 10px 10px;
+    display:block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.callBody .container {
+    justify-content: space-between;
+}
+
+.col3 {
+    background: #696969;
+    float: right;
+    flex-grow: 1;
+    width: 33%;
+    text-align: center;
+    padding-left: 0px;
+    text-decoration: none;    
+
+}
+
+.btn4 {
+    color: #000;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.btn5 {
+    background: #500d16;
+    height: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.item:hover .btn4 {
+    color: #500d16;
+}
+
+.workHour {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease;
+    letter-spacing: 3px;
+    padding: 5px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 17px;
+
+    
+}
+
+/* HOME SETTINGS */
+
+header .logo {
+    margin-right: auto;
+}
+
+header .logo img {
+    display: block;
+    height: 70px;
+}
+
+.menu {
+    background: #000;
+    padding: 10px 240px;
+    font-size: 20px;
+    display:block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.menu img {
+    text-align: center;
+    background: #000;  
+    padding: 10px 30px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.menu li a:last-child {
+    padding-left: 0;
+}
+
+.menu li:hover a {
+    background: #000;
+    color: #fff;
+}
+
+#mainSlider {
+    height: 500px;
+    background: url('../img/home.jpeg') center center;
+    background-size: cover;
+}
+
+
+#aboutSlider {
+    height: 270px;
+    background: url('../img/home.jpeg') center center;
+    background-size: cover;
+}
+
+.slider {
+    width: 100%;
+}
+
+#mainCaption {
+    height: 500px;
+    background: rgba(0,0,0, .5);
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}
+
+
+.socialTop {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+} 
+
+.item {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    widows: 100%;
+    vertical-align: top;
+    
+}
+
+.zoom img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+
+
+
+.col2 li {
+    float: inherit;
+}
+
+.col2 li a {
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.col2 li a:last-child {
+    padding-right: 0;
+}
+
+.col2 li:hover a {
+    color: #fff;
+}
+
+
+.col li {
+    float: left;
+}
+
+.col li a {
+    padding: 100px 440px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.col li a:last-child {
+    padding-right: 0;
+}
+
+.col li:hover a {
+    color: #fff;
+}
+
+.lınks li {
+    float:inherit;
+}
+
+.lınks li a {
+    padding: 10px 10px;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.lınks li a:last-child {
+    padding-right: 0;
+}
+
+.lınks li:hover a {
+    color: #fff;
+}
+
+call {
+    background: #000;
+    text-align: center;
+    
+}
+
+.callItem {
+    padding: 20px;
+}
+
+callItem img {
+    height: 50px;
+    opacity: .5;   
+}
+
+call h4 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+call .fa {
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.contactForm .fa {
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+
+menu {
+    background: #000;
+    text-align: center;
+    
+}
+
+/* CONTACT SETTINGS */
+
+#gallery {
+    
+}
+
+.galleryTop {
+    text-align: center;
+}
+
+.gallerySlider {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallerySliderItem {
+    width:300%;
+    position: relative;
+    left: 0;
+    animation: slideAnimation 30s infinite;
+}
+
+.gallerySliderItem img {
+    width: 33.33%;
+    float: left;
+    height: auto;
+}
+
+@keyframes slideAnimation {
+    0% { left: 0; }
+    25% { left: -100%; }
+    50% { left: -200%; }
+    75% { left: -100%; }
+    100% { left: 0; }
+}
+
+.contactTop{
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contactForm {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.formItem {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formShape {
+    color: #fff;
+    float: left;
+    background: #000;
+    padding: 8px;
+    width: 8%;
+}
+
+.formField {
+    color: #333;
+    background: #fff;
+    border: none;
+    padding: 15.5px;
+    width: 91.9%;
+    display: block;
+    font-size: 14px;
+}
+
+.formBtn {
+    display: block;
+    border: none;
+    background: #fff;
+    color: #333;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formBtn:hover {
+    background: #500d16;
+}
+
+
+/*  MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+    .caption h1
+}
+    
